@@ -3,29 +3,36 @@
 
 body {
   margin: 0;
+  background-color: #9d0609;
 }
 
 header {
   margin: 0 auto;
   width: 1000px;
+  background-image: url(../images/flag.jpg);
+  color: white;
+  font-family:
 }
 
 header h1 {
   text-align: center;
   margin: 0;
   padding-top: .25em;
+  color: #b9b4b5;
 }
 
 header h2 {
   text-align: center;
   margin: 0;
   padding-bottom: 1em;
+  color: #b9b4b5;
 }
 
 h3 {
   margin: 0;
   margin-top: 10px;
   margin-bottom: 5px;
+  color: #65668c;
 }
 
 p {
@@ -38,6 +45,8 @@ nav {
   width: 1000px;
   padding: 5px 0;
   text-align: center;
+  background-color: #b9b4b5;
+  border: solid #141237;
 }
 
 nav a {
@@ -53,4 +62,10 @@ nav a {
   margin: 0 auto;
   width: 1000px;
   padding: 5px 15px;
+  color: #141237;
+  background-color: white;
+}
+
+ul{
+  list-style-image: url(../images/star.png);
 }
